@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Portfolio</title>
+    <meta
+      name="description"
+      content="Professional portfolio website showcasing my work and services."
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #0d1117;
+        color: #c9d1d9;
+      }
+      header {
+        background: #161b22;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 24px;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        background: #238636;
+        padding: 10px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-weight: bold;
+      }
+      .hero {
+        text-align: center;
+        padding: 50px 20px;
+        background: url("https://source.unsplash.com/1600x600/?technology,code")
+          no-repeat center center/cover;
+        color: white;
+      }
+      .hero h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+      }
+      .hero p {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      .btn {
+        background: #238636;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 5px;
+        border: none;
+      }
+      .btn:hover {
+        background: #2ea043;
+      }
+      .container {
+        text-align: center;
+        padding: 50px;
+      }
+      .container h2 {
+        margin-bottom: 20px;
+      }
+      .grid {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      .grid div {
+        background: #161b22;
+        padding: 20px;
+        width: 300px;
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+      }
+      .contact-form {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #30363d;
+        border-radius: 5px;
+        background: #161b22;
+        color: white;
+      }
+      textarea {
+        resize: none;
+      }
+      button {
+        width: 100%;
+        margin-top: 10px;
+      }
+      footer {
+        background: #161b22;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>My Portfolio</header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+      <h1>Build Your Future with Modern Web Design</h1>
+      <p>
+        Professional and responsive websites for businesses and individuals.
+      </p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+    <div class="container" id="about">
+      <h2>About Me</h2>
+      <p>
+        Experienced web developer specializing in clean and functional design.
+      </p>
+    </div>
+    <div class="container" id="portfolio">
+      <h2>My Work</h2>
+      <div class="grid">
+        <div>
+          <h3>Project 1</h3>
+          <p><a href="https://dannybadu2004.github.io/Startup/">A beautiful website for a startup.</a></p>
+        </div>
+        <div>
+          <h3>Project 2</h3>
+          <p><a href="https://dannybadu2004.github.io/Freelancer-Services/">An e-commerce platform with modern UI.</a></p>
+        </div>
+        <div>
+          <h3>Project 3</h3>
+          <p><a href="https://dannybadu2004.github.io/PersonalBlog/">A personal blog with a sleek design.</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="contact">
+      <h2>Contact Me</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+    <footer>Copyright &copy; 2025 | All Rights Reserved</footer>
+  </body>
+</html>
